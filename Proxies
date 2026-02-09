@@ -1,0 +1,35 @@
+Set-Cookie: PHPSESSID=1p4m408lndro29e71rnv8lma6e;\\
+curl X -POST 'http://83.136.254.84:53882/search.php' -H 'Content-Type: application/json' -b 'Cookie: PHPSESSID=1lvbs1obhj9n1l48ehm51tcl5p' -d '{"search":"flag"}'
+
+
+1lvbs1obhj9n1l48ehm51tcl5p
+
+
+curl -X POST -b 'PHPSESSID=bbf01plgp5kgdk6obrgs5qsoib' -H 'Content-Type: application/json' -d {"search":"flag"}' http://83.136.254.84:53882/search.php ["flag"]
+
+
+clear
+
+
+/var/www/html
+
+
+ http	192.168.39.93	8080
+ 
+ 
+ 
+ 
+ proxychains -q curl http://SERVER_IP:PORT
+
+94.237.53.219:55772
+
+
+
+**ITAM-CMDB 
+
+Could you raise a ticket to **ITAM-CMDB  requesting a modification to the SME/Platform Owner details associated with the application.
+
+
+set Proxies http:127.0.0.1:8080
+set RHOSTS 154.57.164.75
+set RPORT 31721
