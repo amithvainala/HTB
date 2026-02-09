@@ -8,3 +8,9 @@ dnsenum --enum inlanefreight.com -f  /usr/share/seclists/Discovery/DNS/subdomain
 
 DNS Zone Transfers:
  dig axfr @nsztm1.digi.ninja zonetransfer.me
+
+
+Virtual Host Discovery Tools:
+gobuster
+Feroxbuster
+ffuf
