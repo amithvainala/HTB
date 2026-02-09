@@ -1,5 +1,10 @@
 dig google.com
 dig facebook.com MX
 
+
+Brute-forcing sub domains:
 dnsenum
 dnsenum --enum inlanefreight.com -f  /usr/share/seclists/Discovery/DNS/subdomains-top1million-20000.txt 
+
+DNS Zone Transfers:
+
