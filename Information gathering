@@ -11,6 +11,15 @@ DNS Zone Transfers:
 
 
 Virtual Host Discovery Tools:
-gobuster
+
+gobuster (gobuster vhost -u http://<target_IP_address> -w <wordlist_file> --append-domain)
+example: gobuster vhost -u http://inlanefreight.htb:81 -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-110000.txt --append-domain
+
 Feroxbuster
 ffuf
+
+Searching CT Logs:
+
+curl -s "https://crt.sh/?q=facebook.com&output=json" | jq -r '.[]| select(.name_value | contains("dev")) | .name_value' | sort -u
+
+
