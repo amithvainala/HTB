@@ -22,4 +22,12 @@ Searching CT Logs:
 
 curl -s "https://crt.sh/?q=facebook.com&output=json" | jq -r '.[]| select(.name_value | contains("dev")) | .name_value' | sort -u
 
+dig axfr @10.129.1.91  inlanefreight.htb
+
+gobuster vhost -u 
+
+
+sudo nano /etc/hosts
+
+
 
