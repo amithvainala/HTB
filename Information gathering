@@ -28,6 +28,29 @@ gobuster vhost -u
 
 
 sudo nano /etc/hosts
+#add 
+#10.129.42.195 inlanefreight.htb
+
+
+Fingerprinting:
+nikto -h  ip(10.129.42.195)
+curl ip -v
+
+skills assessemnet:
+
+curl -i inlanefreight.htb
+
+curl -i inlanefreight.htb:31619
+
+clear
+
+
+
+
+
+
+
+
 
 
 
